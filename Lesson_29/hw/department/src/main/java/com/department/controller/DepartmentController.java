@@ -27,7 +27,7 @@ public class DepartmentController {
         return "index";
     }
 
-    @GetMapping("/department-add")
+    @GetMapping("/department/add")
     public String add() {
         return "department-add";
     }

@@ -14,7 +14,7 @@ public class AccountController {
     @Autowired
     private AccountRepository accountRepository;
 
-    @GetMapping("account-add")
+    @GetMapping("account/add")
     public String add() {
         return "account-add";
     }
