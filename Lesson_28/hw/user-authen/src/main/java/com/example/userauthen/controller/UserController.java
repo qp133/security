@@ -35,7 +35,7 @@ public class UserController {
         user.setEmail(user.getEmail());
         user.setHoTen(user.getHoTen());
         user.setSoDienThoai(user.getSoDienThoai());
-        user.setIsActive(true);
+        user.setIsActive(user.getIsActive());
         userRepository.save(user);
         return new ResponseEntity<>("Save successful", HttpStatus.CREATED);
     }
